@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family:'titulo' ;
+    src: url('idroid.otf') format('opentype');
+}        
+
+
+@font-face {
+    font-family: 'menu';
+    src: url('BebasNeue-Regular.otf') format('opentype');
+}
+
+
+body {
+    background-color:     rgb(166, 222, 207);
+    margin:auto
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(13, 213, 150), rgb(21, 118, 100));
+    padding: 12px;
+    outline: 0px;
+}
+
+header > h1 {
+    color: white;
+    font-family:'menu';
+    text-align: center;
+}
+
+aside {
+    color: white;
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: rgb(20, 30, 220);
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    max-width: 1000px;
+    min-height: 999px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main > article> h1{
+    padding: 5px;
+    margin: auto;
+    margin-left: 3px;
+    font-family: 'titulo';
+    font-size: 28px;
+}
+
+main > article > h2{
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-family: 'titulo';
+    background-image: linear-gradient(to right, rgba(13, 213, 150, 0.558), white );
+}
+
+main > article > p{
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-family: Helvetica, sans-serif;
+    text-indent: 1cm;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 800px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container{
+    margin-bottom: 30px;
+    background-color: rgb(12, 84, 46);
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(195, 239, 224);
+    margin:auto;
+    font-family:Helvetica, sans-serif;
+}
+
+footer > p{
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-indent: 1cm;
+}
+
+footer > h3{
+    background-color: rgb(107, 233, 174);
+    padding: 10px;
+}
+
+.final{
+    background-color: black;
+    color: white;
+}

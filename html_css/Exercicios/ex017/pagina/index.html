@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h2>Imagens flexíveis:</h2>
+    <p>Observe as adaptações da imagem conforme o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="../imagem/donutpequeno.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="../imagem/donutmedio.png" type="image/png">
+        <img src="../imagem/donutgrande.png" alt="">
+    </picture>
+</body>
+</html>

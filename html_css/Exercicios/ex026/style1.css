@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    background-color: darkgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+article{
+    background-color: lightgray;
+}
+
+article > aside {
+    background-color: dimgrey; 
+}
+
+nav{
+    background-color: rgb(211, 147, 147);
+    padding: 3px;
+    margin: 0px;
+}
+
+nav > p{
+    background-color: beige;
+    color: brown;
+    font-weight: bold;
+}

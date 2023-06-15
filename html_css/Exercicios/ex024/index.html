@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: antiquewhite;
+            color: rgb(53, 13, 13);
+        }
+        a{
+            color: rgb(175, 17, 17);
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: deeppink;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:aqua;
+        }
+
+        a::before{
+            content: '➥';
+        }
+        .especial{
+            background-color: rgb(230, 173, 176);
+        }
+        a.especial::before{
+            content: '↠';
+            color: darkgray;
+        }
+
+        a.especial::after{
+            content:  '↞';
+            color:darkgray;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links:</h1>
+    <ul>
+        <li><a href="https://github.com/kamyllevictoria" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://open.spotify.com/?flow_id=b31b5edc-2655-4cea-bde3-f97deb44fa37%3A1685734798" target="_blank">Perfil Spotify</a></li>
+        <li><a href="https://www.linkedin.com/in/kamylle-victoria-15b866267/" class="especial" target="_blank">Perfil Linkedin</a></li>
+    </ul>
+</body>
+</html>

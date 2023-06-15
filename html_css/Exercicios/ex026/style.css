@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+    background-color: #C9F5C3;
+}
+
+header{
+    background-color: #C8B1DE;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    padding: 6px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > h1{
+    background-color: #a472d4 ;
+    padding: 6px;
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px;
+    padding: 6px;
+}
+
+article{
+    background-color: #C8B1DE;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    padding: 6px;
+}
+
+article > h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a472d4;
+    padding: 6px;
+    margin: 6px;
+}
+
+article > p{
+    padding: 6px;
+    margin: 6px;
+    text-align: justify;
+}
+
+aside{
+    padding: 6px;
+    margin: 6px;
+    text-align: justify;
+}
+
+nav{
+    margin: 40px;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    background-color:#F9D0A6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover{
+    text-decoration: none;
+    color: crimson;
+}
+
+footer{
+    background-color:#F9D0A6;
+}
+
+footer > h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #faba7b;
+    margin: 6px;
+    padding: 6px;
+    font-size: 19px;
+    text-align: center;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 6px;
+    padding: 6px;
+}
