@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+caption{
+    text-align: center;
+    padding-bottom:5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+td{
+    text-align: justify;
+    padding: 5px;
+}
+
+thead, tfoot{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color:  rgb(56, 56, 56);
+    padding: 6px;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color:lightgrey;
+}
