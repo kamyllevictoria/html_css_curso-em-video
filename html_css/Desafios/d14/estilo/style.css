@@ -33,3 +33,10 @@ td{
     padding: 20px;
     text-align: left;
 }
+
+.media_total{
+    background-color: rgb(79, 78, 78);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
