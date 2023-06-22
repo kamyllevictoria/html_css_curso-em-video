@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+caption{
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.media{
+    background-color: rgb(79, 78, 78);
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
