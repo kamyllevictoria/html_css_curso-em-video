@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1{
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
