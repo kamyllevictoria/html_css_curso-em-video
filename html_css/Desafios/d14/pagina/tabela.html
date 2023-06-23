@@ -8,20 +8,20 @@
 </head>
 <body>
     <table>
-        <caption>Table made for the course challenge 14!</caption>
+        <caption>Table made for the challenge 14!</caption>
         <thead>
             <tr>
-                <th rowspan="2">Area</th>
-                <th rowspan="2">Discipline</th>
-                <th colspan="2">Notes</th>
-                <th rowspan="2">Media</th>
+                <th scope="col" rowspan="2">Area</th>
+                <th scope="col" rowspan="2">Discipline</th>
+                <th scope="colgroup" colspan="2">Notes</th>
+                <th scope="col" rowspan="2">Media</th>
             </tr>
             <tr>
-                <th>1º Note</th>
-                <th>2º Note</th>
+                <th scope="col">1º Note</th>
+                <th scope="col">2º Note</th>
             </tr>
             <tr>
-                <td rowspan="4">Exacts</td>
+                <th rowspan="4">Exacts</th>
                 <td>Math</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -46,11 +46,11 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="media">Exacts average:</th>
+                <th scope="row" colspan="4" class="media">Exacts average:</th>
                 <td class="media_total">0.0</td>
             </tr>
             <tr>
-                <td rowspan="6">Humans</td>
+                <th rowspan="6">Humans</th>
                 <td>English</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -87,7 +87,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4" class="media">Humans average:</th>
+                <th scope="row" colspan="4" class="media">Humans average:</th>
                 <td class="media_total">0.0</td>
             </tr>
         </thead>
