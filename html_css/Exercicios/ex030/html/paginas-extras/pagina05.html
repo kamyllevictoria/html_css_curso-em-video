@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript </title>
+    <style>
+
+        body{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Click here</a>
+
+    <div id="saida"></div>
+
+    <script>
+        function clicou()
+        {
+            s = window.document.getElementById("saida")
+            s.innerHTML += '<p>You clicked here!</p>'
+        }
+    </script>
+
+</body>
+</html>
