@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 02</title>
+</head>
+<body>
+    <h1>Form test</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p>
+            <label for="iuser">User</label>
+            <input type="text" name="User" id="iuser" required minlength="5" maxlength="10" size="10" placeholder="User name" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipassword">Password</label>
+            <input type="password" name="password" id="ipassword" required minlength="8" maxlength="20" placeholder="Your password" autocomplete="new-password">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+
+    </form>
+</body>
+</html>
