@@ -1,0 +1,26 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+menu{
+    display: none;
+}
+
+header{
+    background-color: lightgray;
+}
+
+article::after{
+    content: 'This article were based on Curso em Video';
+}
+
+article{
+    width: 100%;
+}
